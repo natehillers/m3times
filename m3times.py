@@ -2,8 +2,8 @@
 ## where m is any number
 ## = 1
 
-print "((1 + 9*(m^3))^3)+((9*(m^4))^3)+((-9*(m*4)-(3*m))^3) \nalways equals 1 \nwhen m is any positive number"
-numberinput = raw_input("What do you want the max number to check? ")
+print("((1 + 9*(m^3))^3)+((9*(m^4))^3)+((-9*(m*4)-(3*m))^3) always equals 1 when m is any positive number")
+numberinput = input("What do you want the max number to check? ")
 maxnumber = int(numberinput)
 
 linenumber = 0
@@ -20,4 +20,4 @@ with open('Results.txt','w') as a:
 		else:
 			a.write("ERROR " + str(m) + '\n')
 
-print "Done! Check the 'results' file for final results"
+print("Done! Check the 'results' file for final results")
